@@ -4,23 +4,6 @@ This is where you include your WebPart documentation.
 
 ### Building the code
 
-```bash
-git clone the repo
-npm i
-npm i -g gulp
-gulp
-```
+This example shows how the use of loadTheme now causes an error in the console log and causes the entire page to go blank and just show the suite bar.  
 
-This package produces the following:
-
-* lib/* - intermediate-stage commonjs build artifacts
-* dist/* - the bundled script, along with other resources
-* deploy/* - all resources which should be uploaded to a CDN.
-
-### Build options
-
-gulp clean - TODO
-gulp test - TODO
-gulp serve - TODO
-gulp bundle - TODO
-gulp package-solution - TODO
+Issue started 2019-03-13.
